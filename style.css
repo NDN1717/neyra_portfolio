@@ -52,6 +52,7 @@ section {
     background: url('laptop.jpg') center/cover; /* Background image for the home section */
     color: #fff; /* Text color for the home section */
 }
+
 #about {
     background-color: #fff;
     color: #333;
@@ -80,12 +81,6 @@ section {
 
 .about-description p {
     text-align: justify; /* Adjust text alignment as needed */
-}
-
-
-#portfolio {
-    background-color: #f8f8f8;
-    padding: 40px 20px;
 }
 
 #portfolio {
@@ -143,7 +138,6 @@ section {
     margin-bottom: 8px;
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
@@ -157,10 +151,8 @@ footer {
     .contacts {
         padding: 20px 10px;
     }
-}
-
 
     nav a {
-        margin: 10px 0;
+        margin: 10px 0; /* Add space between navigation links on smaller screens */
     }
-
+}
